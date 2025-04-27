@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://Guillermode20.github.io/"
 languageCode = "en-us"
 title = "Will Hick's Site"
 theme = "risotto" # Replace with your desired theme
@@ -14,7 +14,7 @@ logo = "🐬" # You can use an emoji or a path to an image
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/guillermode2"
+url = "https://github.com/guillermode20"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
