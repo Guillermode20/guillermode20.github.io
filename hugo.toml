@@ -1,0 +1,38 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Will Hick's Site"
+theme = "risotto" # Replace with your desired theme
+
+[params.theme]
+palette = "base16-dark"
+
+[params.about]
+title = "Will Hick"
+description = "Documenting my projects, thoughts, and experiments."
+logo = "🐬" # You can use an emoji or a path to an image
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/guillermode2"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:william_hick@hotmail.co.uk"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/will-hick-809813303"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 2
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Will Hick&#39;s Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Will Hick&#39;s Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opening Words</title>
+      <link>http://localhost:1313/posts/intro/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/intro/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;&#xA;&lt;p&gt;Starting something is always the hardest part, right? Or at least it always seems like it. It shouldn&amp;rsquo;t be, logically, cause the start is when you&amp;rsquo;re probably at your most confident yet with any project.&lt;/p&gt;&#xA;&lt;p&gt;At the start you haven&amp;rsquo;t had your first roadbloack, that first big hump that seems so insurmountable that you near enough pack it in, but you manage to overcome it anyway not long after. Pushing the boat out is the easiest part of any journey, but it still feels so damn hard to do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
