@@ -1,5 +1,5 @@
 +++
-title = "Market Analysis: The strained world of the musician"
+title = "Thrilled to Announce... We Still Need a Real Network for Musicians"
 date = 2025-05-01
 draft = false
 +++
