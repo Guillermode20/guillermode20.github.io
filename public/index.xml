@@ -6,8 +6,15 @@
     <description>Recent content in Home on Will Hick&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PLOTCYPHER</title>
+      <link>http://localhost:1313/projects/plotcypher/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/plotcypher/</guid>
+      <description>&lt;p&gt;This was my first big project I completed. It&amp;rsquo;s a React based daily media guessing game in the same vain as Wordle. It&amp;rsquo;s not particularly good, I was learning at this stage. Looking back there are a lot of changes I would make.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Thrilled to Announce... We Still Need a Real Network for Musicians</title>
       <link>http://localhost:1313/posts/market-analysis-of-musician-networking-apps/</link>
