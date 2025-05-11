@@ -1,0 +1,39 @@
+{{ define "main" }}
+<main>
+  <article class="post-single">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Params.images }}
+      <img src="{{ index . 0 }}" alt="{{ $.Title }} screenshot" class="post-cover">
+    {{ end }}
+    <div class="post-meta">
+      {{ with .Params.tech_stack }}
+        <span><strong>Tech stack:</strong> {{ delimit . ", " }}</span>
+      {{ end }}
+      {{ with .Params.project_url }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="button">Live Demo</a>
+      {{ end }}
+      {{ with .Params.source_url }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="button">Source Code</a>
+      {{ end }}
+    </div>
+    <div class="post-summary">
+      <p>{{ .Params.description }}</p>
+    </div>
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+    {{ with .Params.images }}
+      {{ if gt (len .) 1 }}
+        <div class="post-gallery">
+          {{ range $i, $img := . }}
+            {{ if gt $i 0 }}
+              <img src="{{ $img }}" alt="{{ $.Title }} screenshot {{ add $i 1 }}" class="post-cover" style="max-width:200px; margin:0.5rem;">
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </article>
+</main>
+<!-- Uses Risotto's post-single, post-title, post-cover, post-meta, button, post-summary, post-content classes for theme consistency -->
+{{ end }}

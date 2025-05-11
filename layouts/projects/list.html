@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main>
+  <h1 class="post-title">Projects</h1>
+  <div class="post-list">
+    {{ range .Pages }}
+      <article class="post-card">
+        <header>
+          <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </header>
+        {{ with .Params.images }}
+          <img src="{{ index . 0 }}" alt="{{ $.Title }} screenshot" class="post-cover">
+        {{ end }}
+        <div class="post-summary">
+          <p>{{ .Params.description }}</p>
+          {{ with .Params.tech_stack }}
+            <p><strong>Tech stack:</strong> {{ delimit . ", " }}</p>
+          {{ end }}
+          {{ with .Params.project_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="button">Live Demo</a>
+          {{ end }}
+          {{ with .Params.source_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="button">Source Code</a>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</main>
+<!-- Uses Risotto's post-list, post-card, post-title, post-cover, button classes for theme consistency -->
+{{ end }}
