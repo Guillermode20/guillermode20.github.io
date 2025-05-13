@@ -1,29 +1,39 @@
 {{ define "main" }}
   <main>
-    <section>
+    <!-- Main Content -->
+    <section style="margin-bottom:2rem;">
       {{ .Content }}
     </section>
-    <section>
+
+    <!-- Recent Projects -->
+    <section style="margin-bottom:2rem;">
       <h2>Recent Projects</h2>
       <ul>
-        {{ range first 5 (where .Site.RegularPages "Section" "projects") }}
+        {{ range first 2 (where .Site.RegularPages "Section" "projects") }}
           <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Date }} - added {{ .Format "Jan 2, 2006" }}{{ end }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Date }}<span style="color:#888; font-size:0.95em;"> &ndash; added {{ .Format "Jan 2, 2006" }}</span>{{ end }}
+            {{ with .Params.description }}<br><span style="color:#aaa; font-size:0.95em;">{{ . }}</span>{{ end }}
           </li>
         {{ end }}
       </ul>
       <a href="/projects/">View all projects →</a>
     </section>
+
+    <!-- Recent Blog Posts -->
     <section>
       <h2>Recent Blog Posts</h2>
       <ul>
-        {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+        {{ range first 2 (where .Site.RegularPages "Section" "posts") }}
           <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span style="color:#888; font-size:0.95em;"> &ndash; {{ .Date.Format "Jan 2, 2006" }}</span>
+            {{ with .Params.description }}<br><span style="color:#aaa; font-size:0.95em;">{{ . }}</span>{{ end }}
           </li>
         {{ end }}
       </ul>
       <a href="/posts/">View all posts →</a>
     </section>
+    <script src="/js/show-email.js"></script>
   </main>
 {{ end }}
