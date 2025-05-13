@@ -4,6 +4,17 @@
       {{ .Content }}
     </section>
     <section>
+      <h2>Recent Projects</h2>
+      <ul>
+        {{ range first 5 (where .Site.RegularPages "Section" "projects") }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Date }} - added {{ .Format "Jan 2, 2006" }}{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+      <a href="/projects/">View all projects →</a>
+    </section>
+    <section>
       <h2>Recent Blog Posts</h2>
       <ul>
         {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
@@ -15,4 +26,4 @@
       <a href="/posts/">View all posts →</a>
     </section>
   </main>
-{{ end }} 
+{{ end }}
