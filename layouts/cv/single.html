@@ -1,0 +1,159 @@
+{{ define "main" }}
+<main class="cv-container">
+  <article class="cv-content">
+    <header class="cv-header">
+      <div class="cv-actions">
+        <button id="exportPdf" class="cv-export-btn" onclick="window.print()">
+          📄 Export to PDF
+        </button>
+      </div>
+    </header>
+    
+    <div class="cv-body">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+
+<style>
+  .cv-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .cv-header {
+    margin-bottom: 2rem;
+  }
+
+  .cv-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .cv-export-btn {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--primary-color, #007acc);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s;
+  }
+
+  .cv-export-btn:hover {
+    background-color: var(--primary-color-dark, #005a9e);
+  }
+
+  .cv-content {
+    background: var(--content-bg, white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .cv-body h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--heading-color, #333);
+  }
+
+  .cv-body h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--heading-color, #333);
+    border-bottom: 2px solid var(--border-color, #e0e0e0);
+    padding-bottom: 0.5rem;
+  }
+
+  .cv-body h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--heading-color, #444);
+  }
+
+  .cv-body p, .cv-body ul {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .cv-body ul {
+    padding-left: 1.5rem;
+  }
+
+  .cv-body li {
+    margin-bottom: 0.5rem;
+  }
+
+  .cv-body hr {
+    margin: 1.5rem 0;
+    border: none;
+    border-top: 1px solid var(--border-color, #e0e0e0);
+  }
+
+  .cv-body a {
+    color: var(--link-color, #007acc);
+    text-decoration: none;
+  }
+
+  .cv-body a:hover {
+    text-decoration: underline;
+  }
+
+  /* Print styles */
+  @media print {
+    .cv-header,
+    nav,
+    footer {
+      display: none !important;
+    }
+
+    .cv-container {
+      max-width: 100%;
+      padding: 0;
+    }
+
+    .cv-content {
+      box-shadow: none;
+      padding: 0;
+    }
+
+    .cv-body {
+      font-size: 11pt;
+    }
+
+    .cv-body h1 {
+      font-size: 24pt;
+    }
+
+    .cv-body h2 {
+      font-size: 16pt;
+      page-break-after: avoid;
+    }
+
+    .cv-body h3 {
+      font-size: 13pt;
+      page-break-after: avoid;
+    }
+
+    .cv-body p, .cv-body ul {
+      page-break-inside: avoid;
+    }
+
+    @page {
+      margin: 2cm;
+    }
+  }
+
+  /* Screen-only button visibility */
+  @media screen {
+    .cv-export-btn {
+      display: inline-block;
+    }
+  }
+</style>
+{{ end }}

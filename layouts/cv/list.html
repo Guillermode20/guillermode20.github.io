@@ -1,0 +1,47 @@
+{{ define "main" }}
+<main>
+  <h1>{{ .Title }}</h1>
+  
+  {{ .Content }}
+  
+  <div class="cv-list">
+    {{ range .Pages }}
+      <article class="cv-item">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ if .Summary }}
+          <p>{{ .Summary }}</p>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+</main>
+
+<style>
+  .cv-list {
+    margin-top: 2rem;
+  }
+
+  .cv-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+  }
+
+  .cv-item:last-child {
+    border-bottom: none;
+  }
+
+  .cv-item h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .cv-item a {
+    color: var(--link-color, #007acc);
+    text-decoration: none;
+  }
+
+  .cv-item a:hover {
+    text-decoration: underline;
+  }
+</style>
+{{ end }}

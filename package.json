@@ -1,0 +1,20 @@
+{
+    "name": "portfolio-site",
+    "version": "1.0.0",
+    "description": "Will Hick's portfolio site built with Hugo",
+    "scripts": {
+        "export-cv": "node scripts/export-cv-pdf.js",
+        "export-cv:prod": "node scripts/export-cv-pdf.js --url https://guillermode20.github.io/cv/"
+    },
+    "devDependencies": {
+        "puppeteer": "^21.0.0"
+    },
+    "keywords": [
+        "hugo",
+        "portfolio",
+        "cv",
+        "pdf"
+    ],
+    "author": "Will Hick",
+    "license": "MIT"
+}
