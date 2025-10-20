@@ -13,14 +13,14 @@
       <link>http://localhost:1313/projects/ditherman/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ditherman/</guid>
-      <description>I basically made this project because I found an app called Dither Boy and didn&amp;rsquo;t really feel like paying for it. As much as I applaud indie studios like this for trying to make a neat piece of software all in one, the concept isn&amp;rsquo;t exactly novel and not particularly hard to replicate, however Dither Boy is absolutely a much better product. From just the videos I&amp;rsquo;ve seen it&amp;rsquo;s faster, can do videos and gifs, and applies the dithering effects much better.</description>
+      <description>&lt;p&gt;I basically made this project because I found an app called &lt;a href=&#34;https://studioaaa.com/product/dither-boy/&#34;&gt;Dither Boy&lt;/a&gt; and didn&amp;rsquo;t really feel like paying for it. As much as I applaud indie studios like this for trying to make a neat piece of software all in one, the concept isn&amp;rsquo;t exactly novel and not particularly hard to replicate, however Dither Boy is absolutely a much better product. From just the videos I&amp;rsquo;ve seen it&amp;rsquo;s faster, can do videos and gifs, and applies the dithering effects much better.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PLOTCYPHER</title>
       <link>http://localhost:1313/projects/plotcypher/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/plotcypher/</guid>
-      <description>This was my first big project I completed. It&amp;rsquo;s a React based daily media guessing game in the same vain as Wordle. It&amp;rsquo;s not particularly good, I was learning at this stage. Looking back there are a lot of changes I would make.</description>
+      <description>&lt;p&gt;This was my first big project I completed. It&amp;rsquo;s a React based daily media guessing game in the same vain as Wordle. It&amp;rsquo;s not particularly good, I was learning at this stage. Looking back there are a lot of changes I would make.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

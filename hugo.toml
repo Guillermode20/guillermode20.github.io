@@ -8,7 +8,7 @@ palette = "base16-dark"
 
 [params.about]
 title = "Will Hick"
-description = "Documenting my projects, thoughts, and experiments."
+description = "My personal website where I share my projects and blog."
 logo = "🐬" # You can use an emoji or a path to an image
 
 [[params.socialLinks]]
