@@ -9,77 +9,69 @@ layout: "cv"
 
 **Software Developer**
 
-📧 william_hick@hotmail.co.uk | 🔗 [LinkedIn](https://www.linkedin.com/in/will-hick-809813303) | 💻 [GitHub](https://github.com/guillermode20)
+📧 william_hick@hotmail.co.uk | 📱 +44 7846 720207 | 📍 Newcastle upon Tyne, UK
 
----
-
-## Profile
-
-A passionate software developer with expertise in web development, creative coding, and innovative problem-solving. Dedicated to building impactful projects and continuously learning new technologies.
+🔗 [LinkedIn](https://linkedin.com/in/will-hick-809813303) | 💻 [GitHub](https://github.com/Guillermode20)
 
 ---
 
 ## Education
 
-### University Name
-**Degree Program** | *Start Date - End Date*
+### Northumbria University, Newcastle upon Tyne
+**BSc (Hons) Computer Science** | *Third Year*
+**Predicted Grade:** First Class Honours
+**2nd Year Modules:**
+Advanced Programming (First) · Algorithms & Data Structures (2:1) · Human–Computer Interaction (First) · Software Architecture (2:1) · Computing Consultancy Project (First) · Virtual & Augmented Reality (First)
 
-- Relevant coursework
-- Academic achievements
-- Notable projects
+**3rd Year Modules (so far):**
+- Business Intelligence
+- Group Project – Project Manager & Lead Developer for a React Native + Django event management app optimizing resource allocation for charity/NGO events
+- Final Year Project – Developing a Unity VR training environment for delivery drivers for B&Q's Learning and Development Department
+
+**Key Achievements:**
+- Led development of a full-stack collaborative whiteboard (React + FastAPI) delivered to a client for Computing Consultancy Module
+- Led creation of a VR educational game simulating extreme weather impacts on Newcastle's Quayside (Unity, Blender, Google Maps 3D Tiles)
 
 ---
 
-## Experience
+## Work Experience
 
-### Job Title | Company Name
-*Start Date - End Date*
+### Chef | Mojo Newcastle
+*Feb 2025 to Now*
 
-- Key responsibility or achievement
-- Another key responsibility
-- Quantifiable impact if possible
-
-### Another Job Title | Another Company
-*Start Date - End Date*
-
-- Key responsibility or achievement
-- Another key responsibility
+- Responsible for running the kitchen, including orders, preparing stock, and paperwork
+- Developed strong teamwork, time management, and adaptability skills
 
 ---
 
 ## Projects
 
-### Project Name
-*Technology Stack*
+### PlotCypher
+*React + Django*
 
-Brief description of the project and your role. Highlight key technologies used and outcomes achieved.
+Full-stack online trivia game making use of OpenAI API to generate data for the quiz.
 
-### Another Project
-*Technology Stack*
+### Ditherman
+*React, Web Workers*
 
-Brief description and impact.
+React-based web-app for applying stylistic dithering effects to images for use by artists and designers. Made use of web workers to offload complex image processing to prevent UI slowdown.
+
+[Live Demo](https://ditherman.subs2all.workers.dev/)
+
+### Newcastle Extreme Weather Simulator
+*Unity, Blender, Google Maps 3D Tiles*
+
+Unity-based 3D simulation of flooding on the central quayside area of Newcastle upon Tyne for the Virtual Reality and Augmented Reality module.
 
 ---
 
 ## Skills
 
-**Programming Languages:** Python, JavaScript, TypeScript, etc.
+**Proficient in:** Python (Django & FastAPI), JavaScript (Express and React), C# (Unity programming)
 
-**Frameworks & Tools:** Hugo, React, Node.js, Git, etc.
-
-**Other Skills:** Problem-solving, Team collaboration, Technical writing
+**Have used:** Cloud Platforms (AWS, Azure, GCP), Linux, Docker, Git, Agile Methodology
 
 ---
 
-## Certifications & Awards
-
-- Certification Name | Issuing Organization | Year
-- Award Name | Year
-
----
-
-## Interests
-
-- Open source contribution
-- Creative coding
-- Music technology
+## Achievements
+Level 6 Programme Representative for Computer Science course at Northumbria University

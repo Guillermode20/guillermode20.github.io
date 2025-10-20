@@ -1,14 +1,6 @@
 {{ define "main" }}
 <main class="cv-container">
   <article class="cv-content">
-    <header class="cv-header">
-      <div class="cv-actions">
-        <button id="exportPdf" class="cv-export-btn" onclick="window.print()">
-          📄 Export to PDF
-        </button>
-      </div>
-    </header>
-    
     <div class="cv-body">
       {{ .Content }}
     </div>
@@ -20,31 +12,6 @@
     max-width: 850px;
     margin: 0 auto;
     padding: 2rem 1rem;
-  }
-
-  .cv-header {
-    margin-bottom: 2rem;
-  }
-
-  .cv-actions {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-  }
-
-  .cv-export-btn {
-    padding: 0.5rem 1.5rem;
-    background-color: var(--primary-color, #007acc);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.95rem;
-    transition: background-color 0.2s;
-  }
-
-  .cv-export-btn:hover {
-    background-color: var(--primary-color-dark, #005a9e);
   }
 
   .cv-content {
@@ -106,7 +73,6 @@
 
   /* Print styles */
   @media print {
-    .cv-header,
     nav,
     footer {
       display: none !important;
@@ -146,13 +112,6 @@
 
     @page {
       margin: 2cm;
-    }
-  }
-
-  /* Screen-only button visibility */
-  @media screen {
-    .cv-export-btn {
-      display: inline-block;
     }
   }
 </style>
