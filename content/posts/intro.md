@@ -1,7 +1,7 @@
 +++
 title = "Opening Words"
 date = 2025-04-27
-draft = false
+draft = true 
 +++
 
 Hi, 
