@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Will Hick&#39;s Site</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://guillermode20.github.io/projects/</link>
     <description>Recent content in Projects on Will Hick&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://guillermode20.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DITHERMAN</title>
-      <link>http://localhost:1313/projects/ditherman/</link>
-      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/ditherman/</guid>
-      <description>&lt;p&gt;I basically made this project because I found an app called &lt;a href=&#34;https://studioaaa.com/product/dither-boy/&#34;&gt;Dither Boy&lt;/a&gt; and didn&amp;rsquo;t really feel like paying for it. As much as I applaud indie studios like this for trying to make a neat piece of software all in one, the concept isn&amp;rsquo;t exactly novel and not particularly hard to replicate, however Dither Boy is absolutely a much better product. From just the videos I&amp;rsquo;ve seen it&amp;rsquo;s faster, can do videos and gifs, and applies the dithering effects much better.&lt;/p&gt;</description>
+      <title>Formula: Fiscal Year 1999</title>
+      <link>https://guillermode20.github.io/projects/formula-fiscal-year-1999/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://guillermode20.github.io/projects/formula-fiscal-year-1999/</guid>
+      <description></description>
     </item>
     <item>
-      <title>PLOTCYPHER</title>
-      <link>http://localhost:1313/projects/plotcypher/</link>
-      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/plotcypher/</guid>
-      <description>&lt;p&gt;This was my first big project I completed. It&amp;rsquo;s a React based daily media guessing game in the same vain as Wordle. It&amp;rsquo;s not particularly good, I was learning at this stage. Looking back there are a lot of changes I would make.&lt;/p&gt;</description>
+      <title>Petrel Fileserver</title>
+      <link>https://guillermode20.github.io/projects/petrel-fileserver/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://guillermode20.github.io/projects/petrel-fileserver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR Trailer Uncoupling Simulator for B&amp;Q</title>
+      <link>https://guillermode20.github.io/projects/vr-trailer-uncoupling-simulator/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://guillermode20.github.io/projects/vr-trailer-uncoupling-simulator/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

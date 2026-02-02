@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Will Hick&#39;s Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://guillermode20.github.io/</link>
     <description>Recent content in Home on Will Hick&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://guillermode20.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formula: Fiscal Year 1999</title>
+      <link>https://guillermode20.github.io/projects/formula-fiscal-year-1999/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://guillermode20.github.io/projects/formula-fiscal-year-1999/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Petrel Fileserver</title>
+      <link>https://guillermode20.github.io/projects/petrel-fileserver/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://guillermode20.github.io/projects/petrel-fileserver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR Trailer Uncoupling Simulator for B&amp;Q</title>
+      <link>https://guillermode20.github.io/projects/vr-trailer-uncoupling-simulator/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://guillermode20.github.io/projects/vr-trailer-uncoupling-simulator/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>https://guillermode20.github.io/cv/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>https://guillermode20.github.io/cv/</guid>
       <description>&lt;h1 id=&#34;will-hick&#34;&gt;Will Hick&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software Developer&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;📧 &lt;a href=&#34;mailto:william_hick@hotmail.co.uk&#34;&gt;william_hick@hotmail.co.uk&lt;/a&gt; | 📱 +44 7846 720207 | 📍 Newcastle upon Tyne, UK&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://linkedin.com/in/will-hick-809813303&#34;&gt;LinkedIn&lt;/a&gt; | 💻 &lt;a href=&#34;https://github.com/Guillermode20&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;h3 id=&#34;northumbria-university-newcastle-upon-tyne&#34;&gt;Northumbria University, Newcastle upon Tyne&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;BSc (Hons) Computer Science&lt;/strong&gt; | &lt;em&gt;Third Year&lt;/em&gt;&#xA;&lt;strong&gt;Predicted Grade:&lt;/strong&gt; First Class Honours&#xA;&lt;strong&gt;2nd Year Modules:&lt;/strong&gt;&#xA;Advanced Programming (First) · Algorithms &amp;amp; Data Structures (2:1) · Human–Computer Interaction (First) · Software Architecture (2:1) · Computing Consultancy Project (First) · Virtual &amp;amp; Augmented Reality (First)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3rd Year Modules (so far):&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Third Year of University</title>
-      <link>http://localhost:1313/posts/third-year/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/third-year/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve made it to third year. The journey so far has been solid. I&amp;rsquo;ve learned a lot and, despite some struggles, I feel I&amp;rsquo;m on the right track academically. My career prospects, however, are a different story. The tech industry is brutal right now, and securing a good internship or graduate scheme has proven incredibly difficult.&lt;/p&gt;&#xA;&lt;p&gt;Failing to land any summer internships or placements last year was a significant blow to my confidence. I&amp;rsquo;ve been working to rebuild and refocus on my studies, but it&amp;rsquo;s hard not to feel discouraged when the competition is so fierce and it seems like everyone else has more experience and better connections.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DITHERMAN</title>
-      <link>http://localhost:1313/projects/ditherman/</link>
-      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/ditherman/</guid>
-      <description>&lt;p&gt;I basically made this project because I found an app called &lt;a href=&#34;https://studioaaa.com/product/dither-boy/&#34;&gt;Dither Boy&lt;/a&gt; and didn&amp;rsquo;t really feel like paying for it. As much as I applaud indie studios like this for trying to make a neat piece of software all in one, the concept isn&amp;rsquo;t exactly novel and not particularly hard to replicate, however Dither Boy is absolutely a much better product. From just the videos I&amp;rsquo;ve seen it&amp;rsquo;s faster, can do videos and gifs, and applies the dithering effects much better.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>PLOTCYPHER</title>
-      <link>http://localhost:1313/projects/plotcypher/</link>
-      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/plotcypher/</guid>
-      <description>&lt;p&gt;This was my first big project I completed. It&amp;rsquo;s a React based daily media guessing game in the same vain as Wordle. It&amp;rsquo;s not particularly good, I was learning at this stage. Looking back there are a lot of changes I would make.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
