@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>Third Year of University</title>
+      <link>http://localhost:1313/posts/third-year-university/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/third-year-university/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve made it to third year. The journey has been solid so far. I&amp;rsquo;ve learned a lot and despite some struggles, I feel I&amp;rsquo;m on the right track academically. My career prospects are a different story though. The tech industry is challenging right now and securing a good internship or graduate scheme has proven more difficult than expected.&lt;/p&gt;&#xA;&lt;p&gt;Not landing any summer internships or placements last year was a setback for my confidence. I&amp;rsquo;ve been working to rebuild it and refocus on my studies, but it&amp;rsquo;s challenging when the competition is fierce and it seems like everyone else has more experience and better connections.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>VR Trailer Uncoupling Simulator for B&amp;Q</title>
       <link>http://localhost:1313/projects/vr-trailer-uncoupling-simulator/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -35,13 +42,6 @@
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
       <description>&lt;h1 id=&#34;will-hick&#34;&gt;Will Hick&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software Developer&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;📧 &lt;a href=&#34;mailto:william_hick@hotmail.co.uk&#34;&gt;william_hick@hotmail.co.uk&lt;/a&gt; | 📱 +44 7846 720207 | 📍 Newcastle upon Tyne, UK&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://linkedin.com/in/will-hick-809813303&#34;&gt;LinkedIn&lt;/a&gt; | 💻 &lt;a href=&#34;https://github.com/Guillermode20&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;h3 id=&#34;northumbria-university-newcastle-upon-tyne&#34;&gt;Northumbria University, Newcastle upon Tyne&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;BSc (Hons) Computer Science&lt;/strong&gt; | &lt;em&gt;Third Year&lt;/em&gt;&#xA;&lt;strong&gt;Predicted Grade:&lt;/strong&gt; First Class Honours&#xA;&lt;strong&gt;2nd Year Modules:&lt;/strong&gt;&#xA;Advanced Programming (First) · Algorithms &amp;amp; Data Structures (2:1) · Human–Computer Interaction (First) · Software Architecture (2:1) · Computing Consultancy Project (First) · Virtual &amp;amp; Augmented Reality (First)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3rd Year Modules (so far):&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Third Year of University</title>
-      <link>http://localhost:1313/posts/third-year-university/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/third-year-university/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve made it to third year. The journey so far has been solid. I&amp;rsquo;ve learned a lot and, despite some struggles, I feel I&amp;rsquo;m on the right track academically. My career prospects, however, are a different story. The tech industry is brutal right now, and securing a good internship or graduate scheme has proven incredibly difficult.&lt;/p&gt;&#xA;&lt;p&gt;Failing to land any summer internships or placements last year was a significant blow to my confidence. I&amp;rsquo;ve been working to rebuild and refocus on my studies, but it&amp;rsquo;s hard not to feel discouraged when the competition is so fierce and it seems like everyone else has more experience and better connections.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
