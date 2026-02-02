@@ -1,5 +1,5 @@
 [build]
-  command = "hugo"
+  command = "rm -rf public/ && hugo"
   publish = "public"
 
 [build.environment]
