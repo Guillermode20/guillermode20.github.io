@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Will Hick&#39;s Site</title>
-    <link>https://guillermode20.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Will Hick&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://guillermode20.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formula: Fiscal Year 1999</title>
-      <link>https://guillermode20.github.io/projects/formula-fiscal-year-1999/</link>
+      <link>http://localhost:1313/projects/formula-fiscal-year-1999/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://guillermode20.github.io/projects/formula-fiscal-year-1999/</guid>
+      <guid>http://localhost:1313/projects/formula-fiscal-year-1999/</guid>
       <description></description>
     </item>
     <item>
       <title>Petrel Fileserver</title>
-      <link>https://guillermode20.github.io/projects/petrel-fileserver/</link>
+      <link>http://localhost:1313/projects/petrel-fileserver/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://guillermode20.github.io/projects/petrel-fileserver/</guid>
+      <guid>http://localhost:1313/projects/petrel-fileserver/</guid>
       <description></description>
     </item>
     <item>
       <title>VR Trailer Uncoupling Simulator for B&amp;Q</title>
-      <link>https://guillermode20.github.io/projects/vr-trailer-uncoupling-simulator/</link>
+      <link>http://localhost:1313/projects/vr-trailer-uncoupling-simulator/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://guillermode20.github.io/projects/vr-trailer-uncoupling-simulator/</guid>
+      <guid>http://localhost:1313/projects/vr-trailer-uncoupling-simulator/</guid>
       <description></description>
     </item>
   </channel>

@@ -46,22 +46,17 @@ Advanced Programming (First) · Algorithms & Data Structures (2:1) · Human–Co
 
 ## Projects
 
-### PlotCypher
-*React + Django*
+### ROSE Event Management App
+*React Native, Django*
+Project Manager & Lead Developer
 
-Full-stack online trivia game making use of OpenAI API to generate data for the quiz.
+Full-stack event management application for charities and NGOs, optimizing resource allocation for events. Developed as part of a group project at Northumbria University.
 
-### Ditherman
-*React, Web Workers*
+### B&Q Trailer Uncoupling Simulator
+*Unity, Virtual Reality*
+Final Year Project
 
-React-based web-app for applying stylistic dithering effects to images for use by artists and designers. Made use of web workers to offload complex image processing to prevent UI slowdown.
-
-[Live Demo](https://ditherman.subs2all.workers.dev/)
-
-### Newcastle Extreme Weather Simulator
-*Unity, Blender, Google Maps 3D Tiles*
-
-Unity-based 3D simulation of flooding on the central quayside area of Newcastle upon Tyne for the Virtual Reality and Augmented Reality module.
+Unity-based VR training environment developed for B&Q's Learning and Development Department to teach delivery drivers safe trailer uncoupling procedures.
 
 ---
 
@@ -75,3 +70,4 @@ Unity-based 3D simulation of flooding on the central quayside area of Newcastle 
 
 ## Achievements
 Level 6 Programme Representative for Computer Science course at Northumbria University
+Secretary for Tech-Connect Northumbria – Networking society for tech students, organizing company visits to the university, student visits to companies, and networking events

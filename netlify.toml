@@ -1,0 +1,12 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.138.0"
+  HUGO_EXTENDED = "true"
+
+[dev]
+  command = "hugo server"
+  publish = "public"
+  port = 1314

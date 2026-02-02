@@ -2,7 +2,10 @@
     "name": "portfolio-site",
     "version": "1.0.0",
     "description": "Will Hick's portfolio site built with Hugo",
-    "scripts": {},
+    "scripts": {
+        "dev": "hugo server",
+        "build": "hugo"
+    },
     "devDependencies": {},
     "keywords": [
         "hugo",
