@@ -11,7 +11,7 @@
 * **Templating Language:** Go Templates (used by Hugo)
 * **Styling:** CSS (and possibly SCSS/Sass if Hugo Pipes is used)
 * **Version Control:** Git
-* **Deployment:** (To be determined - e.g., Netlify, GitHub Pages, Vercel, self-hosted)
+* **Deployment:** Netlify (configured via netlify.toml)
 
 ## 2. Development Setup
 
