@@ -1,4 +1,4 @@
-baseURL = "https://willhick.netlify.app/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Will Hick's Site"
 theme = "risotto" # Replace with your desired theme
